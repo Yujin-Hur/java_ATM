@@ -17,6 +17,8 @@ import java.util.ArrayList;
 			account.put("11111-11111", (long)20000);
 			info.put("22222-22222", 2222);
 			account.put("22222-22222", (long)30000);
+			info.put("master", 1234);
+			account.put("master", (long)0);
 		}  
 	   
 	
@@ -29,7 +31,7 @@ import java.util.ArrayList;
 			account.put(id, cash);
 
 		}
-1
+
 		static boolean matchingPassword(String id, int password) {
 			
 			if(password == info.get(id)) { 
